@@ -22,10 +22,7 @@ const Footer: React.FC = () => {
             © {new Date().getFullYear()} Bolmi. Todos los derechos reservados.
           </p>
 
-          {/* ✅ Texto agregado */}
-          <p className="text-xs text-bolmi-muted mt-2 max-w-md leading-relaxed">
-            Tecnología propietaria. Procesos de Debida Diligencia (KYC) a ser integrados bajo estándar bancario.
-          </p>
+        
         </div>
 
         <div className="flex gap-8 text-sm text-bolmi-muted">

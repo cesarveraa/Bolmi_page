@@ -37,7 +37,7 @@ const Impact: React.FC = () => {
           </h2>
           <p className="text-bolmi-muted max-w-2xl">
             Nuestra infraestructura genera valor financiero y data estratégica
-            para ciudades, trabajadores y entidades financieras.
+            para ciudades, trabajadores y entidades del ecosistema.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ const Impact: React.FC = () => {
             </div>
           </div>
 
-          {/* ✅ Card 3 – Bancos */}
+          {/* ✅ Card 3 – Qubic Liquidity */}
           <div
             className={`group relative bg-bolmi-black p-8 rounded-xl border border-bolmi-border overflow-hidden delay-300 reveal-on-scroll ${isVisible ? 'is-visible' : ''}`}
           >
@@ -116,21 +116,22 @@ const Impact: React.FC = () => {
             <div className="relative z-10">
               <h3 className="text-2xl font-semibold text-white mb-4 flex items-center gap-3">
                 <DollarSign className="text-emerald-400" size={24} />
-                Liquidez de Bajo Costo
+                Liquidez Programable en Qubic
               </h3>
               <p className="text-bolmi-muted mb-6 leading-relaxed">
-                Captación masiva de <strong className="text-white">depósitos a la vista </strong>
-                (Costo ~0%) para reducir de forma estructural
-                el costo de fondeo de la entidad financiera aliada.
+                Los flujos diarios se asientan sobre <strong className="text-white">Qubic</strong> como
+                liquidez programable de muy bajo costo. Esto permite construir rieles
+                de pago, reparto de ingresos e incentivos directamente sobre la capa
+                de liquidación.
               </p>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li className="flex items-center gap-2">
                   <span className="w-1 h-1 bg-emerald-400 rounded-full" />
-                  Incremento de base transaccional
+                  Saldos on-chain por chofer, línea y sindicato
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1 h-1 bg-emerald-400 rounded-full" />
-                  Liquidez estable y recurrente
+                  Rieles programables para crédito, bonuses e incentivos
                 </li>
               </ul>
             </div>

@@ -82,7 +82,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
           className="opacity-0 animate-fade-in-up text-sm md:text-base text-bolmi-muted mb-6"
           style={{ animationDelay: '220ms' }}
         >
-          Convertimos Smartphones en terminales bancarios seguros. Sin Hardware. Sin Internet.
+          Convertimos Smartphones en terminales seguros. Sin Hardware. Sin Internet.
         </span>
 
         {/* Subheadline */}
@@ -91,7 +91,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
           style={{ animationDelay: '300ms' }}
         >
           Infraestructura de pagos y datos <span className="text-white font-medium">Zero-Hardware</span> para el transporte público.
-          Transformamos el caos del efectivo en activos digitales bancarizables mediante tecnología BLE y Offline-First.
+          Transformamos el caos del efectivo en activos digitales mediante tecnología BLE y Offline-First.
         </p>
 
         {/* Tags */}
